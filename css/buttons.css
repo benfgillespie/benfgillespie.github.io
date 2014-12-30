@@ -1,0 +1,37 @@
+.td-button {
+    font-size: 7vw;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+.td-menu {
+    font-size: 3vw;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header {
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+.gametime {
+    font-size: 5vw;
+    color:  midnightblue;
+}
+
+.centerWord {
+    font-size: 10vw;
+    color:  red;
+}
+
+.score {
+    font-size: 5vw;
+    color:  midnightblue;
+}
+
+html, body
+{
+    height: 100%;
+}

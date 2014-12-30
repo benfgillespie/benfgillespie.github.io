@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link href="css/buttons.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <table width="100%">
+        <tr>
+            <td class="td-menu header">Category</td>
+            <td class="td-menu header">Best Time</td>
+            <td class="td-menu header"></td>
+        </tr>
+        <tr>
+            <td class="td-menu">School</td>
+            <td class="td-menu">17.5s</td>
+            <td id = "play1" class="td-menu">PLAY</td>
+        </tr>
+        <tr>
+            <td class="td-menu">Greetings</td>
+            <td class="td-menu">16.2s</td>
+            <td id = "play2" class="td-menu">PLAY</td>
+        </tr>
+    </table>
+</body>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/game.js"></script>
+
+<script>
+    $("#play1").click(function() {
+        playGame("school");
+    });
+    $("#play2").click(function() {
+        playGame("greetings");
+    });
+</script>
+
+</html>
